@@ -18,7 +18,7 @@ choices = [
 default = "Arduino Uno"
 
 [placeholders.clippy]
-type = "boolean"
+type = "string"
 prompt = "Include Clippy to the project?"
 choices = ["Yes", "No"]
 default = "No"
