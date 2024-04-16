@@ -29,9 +29,8 @@ cargo install ravedude
 Then instantiate this template:
 
 ```bash
-cargo generate --git https://github.com/Kiwifuit/avr-hal-template.git --revision bb1b9b0bb65affa5888b29167b47635b94cf27bf
+cargo generate --git https://github.com/Kiwifuit/avr-hal-template.git
 ```
-> **NOTE**: You may remove `--revision bb1b9b0bb65affa5888b29167b47635b94cf27bf` if you wish to add Clippy to your project
 
 You will be prompted to select your board - do so and you're ready to roll!
 Everything is prepared so you should be able to just
