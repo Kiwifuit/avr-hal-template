@@ -17,8 +17,14 @@ choices = [
 ]
 default = "Arduino Uno"
 
+[placeholders.clippy]
+type = "boolean"
+prompt = "Include Clippy to the project?"
+choices = ["Yes", "No"]
+default = "No"
+
 [template]
-ignore=["README.md"]
+ignore = ["README.md"]
 
 [hooks]
 post = ["rename-readme.rhai"]
