@@ -1,4 +1,4 @@
-> *This is a **VERY** hacky solution to a problem where it produced a weird compiler error. Please use the original template if [this issue](https://github.com/Rahix/avr-hal-template/issues/30) has been resolved.*
+> *This is a **VERY** hacky solution to a problem where it produced a weird compiler error. Please use the original template if [this issue](https://github.com/Rahix/avr-hal-template/issues/30) has been resolved. Only use this template if it hasn't or if you like `clippy` to be added in the [`rust-toolchain.toml`](./rust-toolchain.toml)*
 
 `avr-hal-template`
 ==================
@@ -29,8 +29,9 @@ cargo install ravedude
 Then instantiate this template:
 
 ```bash
-cargo generate --git https://github.com/Kiwifuit/avr-hal-template.git
+cargo generate --git https://github.com/Kiwifuit/avr-hal-template.git --revision bb1b9b0bb65affa5888b29167b47635b94cf27bf
 ```
+> **NOTE**: You may remove `--revision bb1b9b0bb65affa5888b29167b47635b94cf27bf` if you wish to add Clippy to your project
 
 You will be prompted to select your board - do so and you're ready to roll!
 Everything is prepared so you should be able to just
