@@ -1,3 +1,5 @@
+> *This is a **VERY** hacky solution to a problem where it produced a weird compiler error. Please use the original template if [this issue](https://github.com/Rahix/avr-hal-template/issues/30) has been resolved.*
+
 `avr-hal-template`
 ==================
 [`cargo-generate`] template for jumpstarting projects on common AVR
@@ -27,7 +29,7 @@ cargo install ravedude
 Then instantiate this template:
 
 ```bash
-cargo generate --git https://github.com/Rahix/avr-hal-template.git
+cargo generate --git https://github.com/Kiwifuit/avr-hal-template.git
 ```
 
 You will be prompted to select your board - do so and you're ready to roll!
