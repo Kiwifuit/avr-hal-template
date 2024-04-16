@@ -1,9 +1,13 @@
-[toolchain]
-channel = "nightly"
 {% case clippy %}
   {% when "Yes" %}
+[toolchain]
+channel = "nightly"
 components = ["rust-src", "clippy"]
-  {% when "No" %}
-components = ["rust-src"]
-{% endcase %}
 profile = "minimal"
+  {% when "No" %}
+[toolchain]
+channel = "nightly"
+components = ["rust-src"]
+profile = "minimal"
+{% endcase %}
+
