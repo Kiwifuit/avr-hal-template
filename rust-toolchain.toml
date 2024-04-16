@@ -2,8 +2,8 @@
 channel = "nightly"
 {% case clippy %}
   {% when "Yes" %}
-  components = ["rust-src", "clippy"]
+components = ["rust-src", "clippy"]
   {% when "No" %}
-  components = ["rust-src"]
+components = ["rust-src"]
 {% endcase %}
 profile = "minimal"
